@@ -14,8 +14,8 @@ storiesOf('Button', module)
   .add('with some emoji', () => <Button onClick={action('clicked')}>😀 😎 👍 💯</Button>);
 
 storiesOf('Random', module)
-  .add('number', () => <div>{Math.random()}</div>)
-  .add('three', () => <div><span>{Math.random()}</span> - <span>{Math.random()}</span> - <span>{Math.random()}</span></div>);
+  .add('number', () => <div className="chromatic-ignore">{Math.random()}</div>)
+  .add('three', () => <div><span className="chromatic-ignore">{Math.random()}</span> - <span className="chromatic-ignore">{Math.random()}</span> - <span className="chromatic-ignore">{Math.random()}</span></div>);
 
 storiesOf('gif', module)
-  .add('image', () => <img src="https://cdn.dribbble.com/users/46315/screenshots/1065283/icons-animation.gif"/>)
+  .add('image', () => <img className="chromatic-ignore" src="https://cdn.dribbble.com/users/46315/screenshots/1065283/icons-animation.gif"/>)
