@@ -22,3 +22,6 @@ storiesOf('Random', module)
 
 storiesOf('gif', module)
   .add('image', () => <img className="chromatic-ignore" src="https://cdn.dribbble.com/users/46315/screenshots/1065283/icons-animation.gif"/>)
+
+storiesOf('error', module)
+  .add('throw', () => {throw new Error("FFOOO")})
