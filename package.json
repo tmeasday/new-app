@@ -10,7 +10,7 @@
     "@storybook/addon-actions": "^3.2.15",
     "@storybook/addon-links": "^3.2.15",
     "@storybook/react": "^3.2.15",
-    "react-chromatic": "hichroma/react-chromatic#staging",
+    "react-chromatic": "^0.7.0",
     "react-scripts": "1.0.17"
   },
   "scripts": {
@@ -20,6 +20,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "chromatic test --storybook-addon --app-code ozovgxp8mfa --index-url https://staging-index.chromaticqa.com"
+    "chromatic-staging": "chromatic test --storybook-addon --app-code ozovgxp8mfa --index-url https://staging-index.chromaticqa.com",
+    "chromatic-prod": "chromatic test --storybook-addon --app-code m7odjzmpdxd"
   }
 }
